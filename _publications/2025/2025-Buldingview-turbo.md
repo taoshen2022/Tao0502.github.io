@@ -18,7 +18,7 @@ authors:
   - Wufan Zhao#
 
 links:
-Paper: https://ssrn.com/abstract=5336448
+  Paper: https://ssrn.com/abstract=5336448
 #Code: https://github.com/ai4city-hkust/buildingview_turbo
 #  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
 ---
