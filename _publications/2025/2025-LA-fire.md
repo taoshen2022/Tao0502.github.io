@@ -1,5 +1,5 @@
 ---
-title:          "Integrating earth observation data into the tri-environmental evaluation of the economic cost of natural disasters: a case study of 2025 LA wildfire"
+title:          "Integrating Earth Observation Data Into the Tri-environmental Evaluation of the Economic Cost of Natural Disasters: A Case Study of 2025 LA Wildfire"
 date:           2025-02-05 00:01:00 +0800
 selected:       true
 #pub:            ""

@@ -3,12 +3,12 @@ secondary_name: "Zongrong Li"
 navbar_name: "Homepage"
 
 positions:
-- logo: /assets/images/badges/usc.png  # Logo is optional
-  name: M.S. in Spatial Data Science
+- logo: /assets/images/badges/Texas_A&M_University_seal.svg  # Logo is optional
+  name: Ph.D. in Geographic Information Systems
 # - name: Position 2 without logo
 
 
-email: "zongrong@usc.edu"
+email: "zongrong@tamu.edu"
 cv_link: /assets/CV/cv.pdf  #IDK
 gscholar: XbCCGC4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: Jasper0122
@@ -25,27 +25,32 @@ short_bio: >-
   <p>
     I'm an interdisciplinary researcher interested in applying GeoAI methods to advance urban science, 
     understand human-environment interactions, and leverage street view and remote sensing for urban perception and analysis.
-  <img src="assets/images/photos/interst.png" alt="Research Interests" 
-           style="float: left; width: 350px; margin-right: 10px; border-radius: 8px;">
+    <img src="assets/images/photos/interst.png" alt="Research Interests" 
+         style="float: left; width: 350px; margin-right: 10px; border-radius: 8px;">
   </p>
 
   <p>
-    Currently, I am seeking a <strong>Ph.D. position</strong> starting in Fall 2025.
-    I am pursuing a Master of Science in Spatial Data Science at the  
+    I am currently a <strong>Ph.D. student</strong> in Geographic Information Systems at 
+    <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>, 
+    advised by Prof. <a href="https://scholar.google.com/citations?user=VRndhQEAAAAJ&hl=en" target="_blank">Lei Zou</a> in the 
+    <a href="https://www.geoearlab.com/" target="_blank">TAMU GEAR Lab</a>. 
+    I previously earned my Master of Science in Spatial Data Science at the 
     <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>, 
-    under the supervision of Prof. <a href="https://scholar.google.com.au/citations?user=0Hm7fD0AAAAJ&hl=en" target="_blank">Siqin Wang</a> 
-    and Prof. <a href="https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en" target="_blank">Yi Qi</a>, 
-    with an expected graduation in May 2025. Prior to this, I obtained a Bachelor of Economics in Finance from 
+    advised by Prof. <a href="https://scholar.google.com.au/citations?user=0Hm7fD0AAAAJ&hl=en" target="_blank">Siqin Wang</a> 
+    and Prof. <a href="https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en" target="_blank">Yi Qi</a>. 
+    I hold a Bachelor of Economics in Finance from 
     <a href="https://lxsy.nau.edu.cn/NanjingAuditUniversity/list.htm" target="_blank">Nanjing Audit University</a>.
   </p>
 
   <p>
-    I am also a Research Assistant at <a href="https://www.hkust-gz.edu.cn/" target="_blank">HKUST(GZ)</a>, 
+    I am also a Research Assistant at 
+    <a href="https://www.hkust-gz.edu.cn/" target="_blank">HKUST(GZ)</a>, 
     working in the AI4City Lab with Prof. <a href="https://wufan-zhao.github.io/" target="_blank">Wufan Zhao</a>. 
-    Previously, I have worked as a Data Science Intern at 
+    Previously, I worked as a Data Science Intern at 
     <a href="https://sites.google.com/view/hdscalecollab/" target="_blank">City of Hope</a> under the supervision of 
-    Dr. <a href="https://www.linkedin.com/in/jiue-an-jay-y-a1ab6737/" target="_blank">Jay Yang</a> and as a Research Assistant at 
-    <a href="https://www.polyu.edu.hk/en/" target="_blank">The Hong Kong Polytechnic University</a> advised by 
+    Dr. <a href="https://www.linkedin.com/in/jiue-an-jay-y-a1ab6737/" target="_blank">Jay Yang</a> 
+    and as a Research Assistant at 
+    <a href="https://www.polyu.edu.hk/en/" target="_blank">The Hong Kong Polytechnic University</a>, advised by 
     Prof. <a href="https://zhiweili.net/" target="_blank">Zhiwei Li</a>.
   </p>
 
@@ -58,15 +63,21 @@ short_bio: >-
     please feel free to reach out via email or WeChat.
   </p>
 
+
+
 portrait_url: /assets/images/photos/profile.jpg
 portrait_caption: >-
   Serve the cat, rule the world.
 
 education:
+- name: Texas A&M University
+  logo: /assets/images/badges/Texas_A&M_University_seal.svg
+  position: Ph.D. in Geographic Information Systems
+  date: Aug. 2025 - Present
 - name: University of Southern California
   logo: /assets/images/badges/usc.png
   position: M.S. in Spatial Data Science
-  date: Aug. 2023 - present
+  date: Aug. 2023 - May. 2025
 - name: Nanjing Audit University
   logo: /assets/images/badges/NAU.png
   position: B.A. in Economics, Finance
