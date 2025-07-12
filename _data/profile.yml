@@ -35,7 +35,7 @@ short_bio: >-
   </p>
 
   <p>
-    <i class="fa-solid fa-rectangle-ad" style="color: #d60000;"></i> 
+    <i class="fa-solid fa-rectangle-!" style="color: #d60000;"></i> 
     <span style="color: #d60000;">My research interests cover</span> 
     personalized decision-making, statistical network analysis, high-dimensional statistics and causal inference.
     These areas are closely connected to current advances in artificial intelligence like reinforcement learning (RL), and large language models (LLMs),
