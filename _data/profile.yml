@@ -3,7 +3,7 @@ secondary_name: "Shen"
 navbar_name: "Homepage"
 
 positions:
-- logo: /assets/images/badges/nus.svg  # Logo is optional
+- logo: /assets/images/badges/NUS.png  # Logo is optional
   name: Ph.D. in Statistics
 # - name: Position 2 without logo
 
