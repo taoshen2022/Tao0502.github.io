@@ -8,66 +8,44 @@ positions:
 # - name: Position 2 without logo
 
 
-email: "zongrong@tamu.edu"
+email: "taoshen@u.nus.edu"
 cv_link: /assets/CV/cv.pdf  #IDK
-gscholar: XbCCGC4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: Jasper0122
-twitter: Jasperli0122  # Do not include the '@' symbol
-wechat_qrcode: /assets/images/etc/wechat.jpg
-wechat_prompt: >- 
-  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past), and your <strong>reason</strong> for adding me on WeChat. Thanks!
-linkedin: zongrong-jasper-li-61457b287
-orcid: 0009-0008-0933-6439
+gscholar: IaiPuOsAAAAJ&hl=zh-CN  # This is an example, replace it with your own Google Scholar ID
+github: taoshen2022
+#twitter: Jasperli0122  # Do not include the '@' symbol
+#wechat_qrcode: /assets/images/etc/wechat.jpg
+#wechat_prompt: >- 
+#  Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past), and your <strong>reason</strong> for adding me on WeChat. Thanks!
+#linkedin: zongrong-jasper-li-61457b287
+orcid: 0009-0001-5464-4464
 
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm an interdisciplinary researcher interested in applying GeoAI methods to advance urban science, 
-    understand human-environment interactions, and leverage street view and remote sensing for urban perception and analysis.
-    <img src="assets/images/photos/interst.png" alt="Research Interests" 
-         style="float: left; width: 350px; margin-right: 10px; border-radius: 8px;">
+    I am currently a <strong>Ph.D. student</strong> in Statistics at 
+    <a href="https://www.stat.nus.edu.sg/" target="_blank">National University of Singapore</a>, 
+    advised by Prof. <a href="https://blog.nus.edu.sg/staww/" target="_blank">Wanjie Wang</a>.
+    I previously earned my Master of Science in Statistics at National University of Singapore</a>, 
+    mentored by Prof. <a href="https://sites.google.com/view/yifancui" target="_blank">Yifan Cui</a>.
+    I hold a Bachelor of Science in Statistical Science from 
+    <a href="https://www.cuhk.edu.cn/en" target="_blank">the Chinese University of Hong Kong, Shenzhen</a>.
   </p>
 
-  <p>
-    I am currently a <strong>Ph.D. student</strong> in Geographic Information Systems at 
-    <a href="https://www.tamu.edu/" target="_blank">Texas A&M University</a>, 
-    advised by Prof. <a href="https://scholar.google.com/citations?user=VRndhQEAAAAJ&hl=en" target="_blank">Lei Zou</a> in the 
-    <a href="https://www.geoearlab.com/" target="_blank">TAMU GEAR Lab</a>. 
-    I previously earned my Master of Science in Spatial Data Science at the 
-    <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>, 
-    advised by Prof. <a href="https://scholar.google.com.au/citations?user=0Hm7fD0AAAAJ&hl=en" target="_blank">Siqin Wang</a> 
-    and Prof. <a href="https://scholar.google.com/citations?user=fYZTZWgAAAAJ&hl=en" target="_blank">Yi Qi</a>. 
-    I hold a Bachelor of Economics in Finance from 
-    <a href="https://lxsy.nau.edu.cn/NanjingAuditUniversity/list.htm" target="_blank">Nanjing Audit University</a>.
-  </p>
-
-  <p>
-    I am also a Research Assistant at 
-    <a href="https://www.hkust-gz.edu.cn/" target="_blank">HKUST(GZ)</a>, 
-    working in the AI4City Lab with Prof. <a href="https://wufan-zhao.github.io/" target="_blank">Wufan Zhao</a>. 
-    Previously, I worked as a Data Science Intern at 
-    <a href="https://sites.google.com/view/hdscalecollab/" target="_blank">City of Hope</a> under the supervision of 
-    Dr. <a href="https://www.linkedin.com/in/jiue-an-jay-y-a1ab6737/" target="_blank">Jay Yang</a> 
-    and as a Research Assistant at 
-    <a href="https://www.polyu.edu.hk/en/" target="_blank">The Hong Kong Polytechnic University</a>, advised by 
-    Prof. <a href="https://zhiweili.net/" target="_blank">Zhiwei Li</a>.
-  </p>
 
   <p>
     <i class="fa-solid fa-rectangle-ad" style="color: #d60000;"></i> 
-    <span style="color: #d60000;">I am looking for collaborators and interns</span> 
-    interested in GeoAI, Spatial Analysis, and their applications in urban science and human-environment interaction. 
-    My goal is to develop novel tools, algorithms, and methodologies to empower future researchers in exploring Urban Science and 
-    understanding the dynamic relationship between humans and their environments. If you are interested in collaborating, 
-    please feel free to reach out via email or WeChat.
+    <span style="color: #d60000;">My research interests cover</span> 
+    personalized decision-making, statistical network analysis, high-dimensional statistics and causal inference.
+    These areas are closely connected to current advances in artificial intelligence like reinforcement learning (RL), and large language models (LLMs),
+    as well as medical and business applications, such as precision medicine, pricing, and policy learning.
   </p>
 
 
 
 portrait_url: /assets/images/photos/profile.jpg
 portrait_caption: >-
-  Serve the cat, rule the world.
+  
 
 education:
 - name: Texas A&M University
