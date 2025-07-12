@@ -39,9 +39,7 @@ short_bio: >-
     <span style="color: #d60000;">My research interests cover</span> 
     personalized decision-making, statistical network analysis, high-dimensional statistics and causal inference.
     These areas are closely connected to current advances in artificial intelligence like reinforcement learning (RL), and large language models (LLMs),
-    as well as medical and business applications, such as precision medicine, pricing, and policy learning.
-    <img src="assets/images/photos/interest.jpg" alt="Research Interests" 
-         style="float: left; width: 450px; margin-right: 10px; border-radius: 8px;">
+    as well as medical, social and business applications, such as precision medicine, community detection, policy learning and pricing.
   </p>
 
 
