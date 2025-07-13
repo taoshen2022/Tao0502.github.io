@@ -38,7 +38,10 @@ date: 2025-01-13 00:01:00 +0800
     .event {
       margin-top: 5px;
     }
-  </style>
+  </style>  
+   
+<h2>Conference Presentations</h2>
+   
   <div class="conference">
     <div class="title">Learning Robust Treatment Rules for Censored Data</div>
     <div class="date-location">June 2025, Zhuhai</div>
