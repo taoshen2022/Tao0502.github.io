@@ -3,7 +3,8 @@ show: true
 width: 8
 date: 2025-01-13 00:01:00 +0800
 ---
-
+<div class="p-4">
+   <meta charset="UTF-8">
   <title>Academic Activities</title>
   <style>
     body {
