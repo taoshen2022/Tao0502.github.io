@@ -4,8 +4,6 @@ width: 8
 date: 2025-01-13 00:01:00 +0800
 ---
 
-<head>
-  <meta charset="UTF-8">
   <title>Academic Activities</title>
   <style>
     body {
@@ -56,7 +54,6 @@ date: 2025-01-13 00:01:00 +0800
       margin-top: 5px;
     }
   </style>
-</head>
 
 <body>
   <div class="container">
