@@ -5,7 +5,9 @@ date: 2025-01-13 00:01:00 +0800
 ---
 
 <div class="p-4">
-    <style>
+   <meta charset="UTF-8">
+  <title>Conference Presentations</title>
+  <style>
     body {
       font-family: Arial, sans-serif;
       max-width: 800px;
@@ -14,9 +16,11 @@ date: 2025-01-13 00:01:00 +0800
       background-color: #f9f9f9;
       color: #333;
     }
-    h1 {
+    h2 {
       text-align: center;
       color: #2c3e50;
+      font-size: 20px;
+      margin-bottom: 30px;
     }
     .conference {
       margin-bottom: 25px;
@@ -35,11 +39,16 @@ date: 2025-01-13 00:01:00 +0800
       margin-top: 5px;
     }
   </style>
-</head>
-<body>
-
-  <h1>Conference Presentations</h1>
-
+  <div class="conference">
+    <div class="title">Learning Robust Treatment Rules for Censored Data</div>
+    <div class="date-location">June 2025, Zhuhai</div>
+    <div class="event">International Chinese Statistical Association China Conference 2025 (ICSA 2025)</div>
+  </div>
+  <div class="conference">
+    <div class="title">Community Detection in Multilayer Networks with Complex Inhomogeneity</div>
+    <div class="date-location">June 2025, Tokyo</div>
+    <div class="event">The 2025 Workshop on Statistical Network Analysis and Beyond (SNAB 2025)</div>
+  </div>
   <div class="conference">
     <div class="title">Proxy-aided Demand Learning with an Application on Various Pricing Problems</div>
     <div class="date-location">July 2024, Beijing</div>
@@ -64,4 +73,3 @@ date: 2025-01-13 00:01:00 +0800
     <div class="event">15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)</div>
 
 </div>
-</body>
