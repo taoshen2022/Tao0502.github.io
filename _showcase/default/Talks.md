@@ -64,3 +64,4 @@ date: 2025-01-13 00:01:00 +0800
     <div class="event">15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)</div>
 
 </div>
+</body>
