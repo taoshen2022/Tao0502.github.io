@@ -76,3 +76,26 @@ date: 2025-01-13 00:01:00 +0800
     <div class="event">15th International Conference of the ERCIM WG on Computational and Methodological Statistics (CMStatistics 2022)</div>
 
 </div>
+    <div class="column">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Tutor for ST3131: Applied Regression Analysis — Spring 2025</li>
+        <li>Student Helper for ST5188: Advanced Data Science Project — Spring 2025</li>
+        <li>Student Helper for ST5188: Advanced Data Science Project — Fall 2024</li>
+        <li>Tutor for ST2334: Probability and Statistics — Spring 2024</li>
+        <li>Student Helper for ST5188: Statistical Research Project — Spring 2024</li>
+        <li>Student Helper for ST5188: Statistical Research Project — Fall 2023</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Service</h2>
+      <ul>
+        <li>Reviewer for NeurIPS</li>
+        <li>Reviewer for <i>Biostatistics & Epidemiology</i></li>
+        <li>Reviewer for <i>Biometrical Journal</i></li>
+        <li>Reviewer for <i>American Journal of Epidemiology</i></li>
+      </ul>
+    </div>
+  </div>
+
+
