@@ -4,7 +4,7 @@ width: 8
 date: 2025-01-13 00:01:00 +0800
 ---
 
-<div class="p-4">
+<div class="p-4 cv-wide">
   <h2>Academic Highlights</h2>
   <hr />
   <div class="grid3">
@@ -101,7 +101,7 @@ date: 2025-01-13 00:01:00 +0800
 <style>
   /* Make the whole block wider (override your theme container) */
   .cv-wide{
-    max-width: min(2000px, 96vw);
+    max-width: min(3000px, 96vw);
     margin: 0 auto;
   }
 
