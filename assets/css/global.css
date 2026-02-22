@@ -67,3 +67,10 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.page-container{
+  max-width: min(2000px, 96vw);  /* change 1600 */
+  margin: 0 auto;
+  padding-left: 15px;            /* keep Bootstrap spacing */
+  padding-right: 15px;
+}
+
