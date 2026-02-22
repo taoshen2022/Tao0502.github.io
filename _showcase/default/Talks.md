@@ -4,7 +4,7 @@ width: 12
 date: 2025-01-13 00:01:00 +0800
 ---
 
-<div class="p-4 cv-wide">
+<div class="container-fluid page-container">
   <h2>Academic Highlights</h2>
   <hr />
   <div class="grid3">
