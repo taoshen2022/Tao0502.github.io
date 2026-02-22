@@ -3,18 +3,23 @@ show: true
 width: 8
 date: 2025-01-13 00:01:00 +0800
 ---
-<div class="p-4">
+
+<div class="p-4 cv-wide">
   <h2>Academic Highlights</h2>
   <hr />
 
+  <p>
+    <code>Research &amp; Community</code> Selected conference/workshop presentations,
+    teaching roles, and professional service.
+  </p>
+
   <div class="grid3">
     <!-- =======================
-         Conference Presentations (LEFT, scrollable)
+         Conference Presentations (LEFT)
          ======================= -->
-    <section class="card talks">
+    <section class="card">
       <h3>Conference Presentations</h3>
       <div class="muted">Selected talks &amp; workshop presentations</div>
-      <!-- Scroll area -->
       <div class="scrollbox">
         <div class="item">
           <div class="title">Learning Robust Treatment Rules for Censored Data</div>
@@ -51,71 +56,77 @@ date: 2025-01-13 00:01:00 +0800
     <!-- =========
          Teaching (MIDDLE)
          ========= -->
-    <section class="card teach">
+    <section class="card">
       <h3>Teaching</h3>
-      <div class="muted">Teaching assistant roles</div>
-      <div class="mini">
-        <div class="title">Tutor for ST3131: Applied Regression Analysis</div>
-        <div class="meta">Spring 2025</div>
-      </div>
-      <div class="mini">
-        <div class="title">Student Helper for ST5188: Advanced Data Science Project</div>
-        <div class="meta">Spring 2025</div>
-      </div>
-      <div class="mini">
-        <div class="title">Student Helper for ST5188: Advanced Data Science Project</div>
-        <div class="meta">Fall 2024</div>
-      </div>
-      <div class="mini">
-        <div class="title">Tutor for ST2334: Probability and Statistics</div>
-        <div class="meta">Spring 2024</div>
-      </div>
-      <div class="mini">
-        <div class="title">Student Helper for ST5188: Statistical Research Project</div>
-        <div class="meta">Spring 2024</div>
-      </div>
-      <div class="mini">
-        <div class="title">Student Helper for ST5188: Statistical Research Project</div>
-        <div class="meta">Fall 2023</div>
+      <div class="muted">Tutorials, TA, student helper roles</div>
+      <div class="scrollbox">
+        <div class="mini">
+          <div class="title">Tutor for ST3131: Applied Regression Analysis</div>
+          <div class="meta">Spring 2025</div>
+        </div>
+        <div class="mini">
+          <div class="title">Student Helper for ST5188: Advanced Data Science Project</div>
+          <div class="meta">Spring 2025</div>
+        </div>
+        <div class="mini">
+          <div class="title">Student Helper for ST5188: Advanced Data Science Project</div>
+          <div class="meta">Fall 2024</div>
+        </div>
+        <div class="mini">
+          <div class="title">Tutor for ST2334: Probability and Statistics</div>
+          <div class="meta">Spring 2024</div>
+        </div>
+        <div class="mini">
+          <div class="title">Student Helper for ST5188: Statistical Research Project</div>
+          <div class="meta">Spring 2024</div>
+        </div>
+        <div class="mini">
+          <div class="title">Student Helper for ST5188: Statistical Research Project</div>
+          <div class="meta">Fall 2023</div>
+        </div>
       </div>
     </section>
     <!-- =======
          Service (RIGHTMOST)
          ======= -->
-    <section class="card serv">
+    <section class="card">
       <h3>Service</h3>
       <div class="muted">Peer review &amp; community support</div>
-      <ul class="plain">
-        <li>Reviewer for NeurIPS</li>
-        <li>Reviewer for <i>Biostatistics &amp; Epidemiology</i></li>
-        <li>Reviewer for <i>Biometrical Journal</i></li>
-        <li>Reviewer for <i>American Journal of Epidemiology</i></li>
-      </ul>
+      <div class="scrollbox">
+        <ul class="plain">
+          <li>Reviewer for NeurIPS</li>
+          <li>Reviewer for <i>Biostatistics &amp; Epidemiology</i></li>
+          <li>Reviewer for <i>Biometrical Journal</i></li>
+          <li>Reviewer for <i>American Journal of Epidemiology</i></li>
+        </ul>
+      </div>
     </section>
   </div>
 </div>
 
 <style>
-  /* 3 columns: talks | teaching | service */
+  /* Make the whole block wider (override your theme container) */
+  .cv-wide{
+    max-width: min(1400px, 96vw);
+    margin: 0 auto;
+  }
+
+  /* 3 columns: Presentations | Teaching | Service */
   .grid3{
     margin-top: 14px;
     display: grid;
     gap: 14px;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: "talks teach serv";
     align-items: start;
   }
-  .talks{ grid-area: talks; }
-  .teach{ grid-area: teach; }
-  .serv{ grid-area: serv; }
 
-  /* Tablet: talks full width, then teaching + service */
+  /* Tablet: first column full width, then 2 columns */
   @media (max-width: 1100px){
     .grid3{
       grid-template-columns: 1fr 1fr;
-      grid-template-areas:
-        "talks talks"
-        "teach serv";
+    }
+    .grid3 > section:first-child{
+      grid-column: 1 / -1;
     }
   }
 
@@ -123,10 +134,9 @@ date: 2025-01-13 00:01:00 +0800
   @media (max-width: 700px){
     .grid3{
       grid-template-columns: 1fr;
-      grid-template-areas:
-        "talks"
-        "teach"
-        "serv";
+    }
+    .grid3 > section:first-child{
+      grid-column: auto;
     }
   }
 
@@ -136,42 +146,72 @@ date: 2025-01-13 00:01:00 +0800
     border-radius: 14px;
     padding: 14px 14px 12px;
     box-shadow: 0 8px 24px rgba(17,24,39,.06);
+    min-width: 0; /* prevents overflow in CSS grid */
   }
+
   .card h3{
     margin: 0 0 6px;
     font-size: 16px;
     color: #2c3e50;
   }
+
   .muted{
     color: #6b7280;
     font-size: 13px;
     margin-bottom: 10px;
   }
 
-  /* Scroll wheel inside presentations */
+  /* Scroll wheel within each column when content grows */
   .scrollbox{
-    max-height: 68vh;         /* adjust: 60–75vh depending on taste */
+    max-height: 70vh;     /* adjust 60–75vh */
     overflow-y: auto;
-    padding-right: 6px;       /* space for scrollbar */
+    padding-right: 6px;   /* space for scrollbar */
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
     scrollbar-gutter: stable;
   }
 
-  .item{ padding: 10px 0; border-bottom: 1px dashed #e5e7eb; }
-  .item.no-border{ border-bottom: none; }
+  .item{
+    padding: 10px 0;
+    border-bottom: 1px dashed #e5e7eb;
+  }
+  .item.no-border{
+    border-bottom: none;
+  }
 
-  .mini{ padding: 10px 0; border-bottom: 1px dashed #e5e7eb; }
-  .mini:last-child{ border-bottom: none; }
+  .mini{
+    padding: 10px 0;
+    border-bottom: 1px dashed #e5e7eb;
+  }
+  .mini:last-child{
+    border-bottom: none;
+  }
 
-  .title{ font-weight: 700; color: #1a5276; font-size: 14px; line-height: 1.25; }
-  .meta{ margin-top: 3px; color: #6b7280; font-style: italic; font-size: 12.5px; }
-  .desc{ margin-top: 4px; color: #374151; font-size: 13.5px; line-height: 1.35; }
+  .title{
+    font-weight: 700;
+    color: #1a5276;
+    font-size: 14px;
+    line-height: 1.25;
+  }
+  .meta{
+    margin-top: 3px;
+    color: #6b7280;
+    font-style: italic;
+    font-size: 12.5px;
+  }
+  .desc{
+    margin-top: 4px;
+    color: #374151;
+    font-size: 13.5px;
+    line-height: 1.35;
+  }
 
-  .plain{ margin: 8px 0 0; padding-left: 18px; color: #374151; }
-  .plain li{ margin: 6px 0; }
+  .plain{
+    margin: 8px 0 0;
+    padding-left: 18px;
+    color: #374151;
+  }
+  .plain li{
+    margin: 6px 0;
+  }
 </style>
-
-
-
-
