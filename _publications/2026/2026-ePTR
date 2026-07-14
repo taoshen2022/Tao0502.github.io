@@ -1,7 +1,7 @@
 ---
 title:          "Efficient Propose-Test-Release for Optimal Differentially Private Estimation"
 date:           2026-05-12 00:01:00 +0800
-selected:       true
+selected:       false
 #pub:            "Advances in Neural Information Processing Systems (NeurIPS)"
 #pub_pre:        "Accepted to Neural Information Processing Systems (NeurIPS) 2023"
 pub_post:       'Preprint'
