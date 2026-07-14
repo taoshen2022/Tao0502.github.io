@@ -26,9 +26,7 @@ short_bio: >-
 <p>
   I am currently a <strong>Ph.D. candidate in Statistics</strong> at the
   <a href="https://www.stat.nus.edu.sg/" target="_blank">
-    National University of Singapore
-  </a>.
-  <span style="color: #d60000;">My research interests cover</span>
+    National University of Singapore</a>. My research interests cover
   personalized decision-making, statistical network analysis,
   differential privacy, high-dimensional statistics,
   and causal inference. My work is motivated by applications in precision
@@ -37,6 +35,22 @@ short_bio: >-
   and reinforcement learning.
 </p>
 
+<h3>Academic Background</h3>
+<ul>
+  <li>
+    <strong>M.Sc. & Ph.D. (Ongoing) in Statistics</strong>, National University of Singapore
+    <br>
+    Supervisors:  Prof.
+    <a href="https://sites.google.com/view/yifancui" target="_blank">Yifan Cui</a> and
+    Prof.
+    <a href="https://blog.nus.edu.sg/staww/" target="_blank">Wanjie Wang</a>
+  </li>
+
+  <li>
+    <strong>B.Sc. in Statistical Science</strong>,
+    the Chinese University of Hong Kong, Shenzhen
+  </li>
+</ul>
 
 
 portrait_url: /assets/images/photos/profile.jpg
