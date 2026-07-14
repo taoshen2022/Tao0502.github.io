@@ -17,8 +17,8 @@ date: 2025-01-13 00:01:00 +0800
       <div class="scrollbox">
         <div class="item">
           <div class="title">Learning Robust Treatment Rules for Censored Data</div>
-          <div class="meta">June 2025 · Zhuhai</div>
-          <div class="desc">International Chinese Statistical Association China Conference 2025 (ICSA 2025)</div>
+          <div class="meta">August 2025 · Online</div>
+          <div class="desc">8th International Conference on Econometrics and Statistics (EcoSta 2025)</div>
         </div>
         <div class="item">
           <div class="title">Community Detection in Multilayer Networks with Complex Inhomogeneity</div>
@@ -55,6 +55,10 @@ date: 2025-01-13 00:01:00 +0800
       <div class="muted">Tutorials, TA, student helper roles</div>
       <div class="scrollbox">
         <div class="mini">
+          <div class="title">Tutor for DSA3362: Predictive Data Analytics</div>
+          <div class="meta">Spring 2026</div>
+        </div>
+        <div class="mini">
           <div class="title">Tutor for ST3131: Applied Regression Analysis</div>
           <div class="meta">Spring 2025</div>
         </div>
@@ -88,10 +92,12 @@ date: 2025-01-13 00:01:00 +0800
       <div class="muted">Peer review &amp; community support</div>
       <div class="scrollbox">
         <ul class="plain">
-          <li>Reviewer for NeurIPS</li>
-          <li>Reviewer for <i>Biostatistics &amp; Epidemiology</i></li>
-          <li>Reviewer for <i>Biometrical Journal</i></li>
-          <li>Reviewer for <i>American Journal of Epidemiology</i></li>
+            <li>Reviewer for <i>American Journal of Epidemiology</i></li>
+            <li>Reviewer for <i>Biometrical Journal</i></li>
+            <li>Reviewer for <i>Biostatistics &amp; Epidemiology</i></li>
+            <li>Reviewer for <i>Journal of Business &amp; Economic Statistics</i></li>
+            <li>Reviewer for <i>Journal of Computational and Graphical Statistics</i></li>
+            <li>Reviewer for <i>NeurIPS</i></li>
         </ul>
       </div>
     </section>
