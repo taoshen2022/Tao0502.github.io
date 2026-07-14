@@ -16,6 +16,11 @@ date: 2025-01-13 00:01:00 +0800
       <div class="muted">Selected talks &amp; workshop presentations</div>
       <div class="scrollbox">
         <div class="item">
+          <div class="title">The ePTR Framework: Differential Privacy through Stability Certification</div>
+          <div class="meta">July 2026 · Singapore</div>
+          <div class="desc">Workshop on Modern Challenges in Data Decentralization</div>
+        </div>
+        <div class="item">
           <div class="title">Learning Robust Treatment Rules for Censored Data</div>
           <div class="meta">August 2025 · Online</div>
           <div class="desc">8th International Conference on Econometrics and Statistics (EcoSta 2025)</div>
