@@ -4,8 +4,8 @@ navbar_name: "Homepage"
 
 positions:
   - logo: /assets/images/badges/NUS.png
-    name: Ph.D. Candidate in Statistics
-
+    name: Ph.D. Candidate in in Statistics and Data Science
+    
 email: "taoshen@u.nus.edu"
 cv_link: /assets/CV/cv.pdf
 gscholar: IaiPuOsAAAAJ
@@ -15,7 +15,7 @@ orcid: 0009-0001-5464-4464
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently a <strong>Ph.D. candidate in Statistics</strong> at the
+    I am currently a <strong>Ph.D. candidate in Statistics and Data Science</strong> at the
     <a href="https://www.stat.nus.edu.sg/" target="_blank"
        rel="noopener noreferrer">National University of Singapore</a>.
     My research interests include causal inference, differential privacy, 
@@ -27,7 +27,7 @@ short_bio: >-
   <h5>Academic Background</h5>
   <ul>
     <li>
-      <strong>M.Sc. & Ph.D. (ongoing) in Statistics</strong>,
+      <strong>M.Sc. & Ph.D. (ongoing) in Statistics and Data Science</strong>,
       National University of Singapore
       <br>
       Supervised by
