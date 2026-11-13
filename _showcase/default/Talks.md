@@ -36,11 +36,6 @@ date: 2025-01-13 00:01:00 +0800
           <div class="desc">7th International Conference on Econometrics and Statistics (EcoSta 2024)</div>
         </div>
         <div class="item">
-          <div class="title">Proxy-aided Demand Learning with an Application on Various Pricing Problems</div>
-          <div class="meta">June 2024 · Wuhan</div>
-          <div class="desc">International Chinese Statistical Association China Conference 2024 (ICSA 2024)</div>
-        </div>
-        <div class="item">
           <div class="title">Optimal Individualized Decision-Making with Proxies</div>
           <div class="meta">June 2023 · Chengdu</div>
           <div class="desc">International Chinese Statistical Association China Conference 2023 (ICSA 2023)</div>
@@ -59,6 +54,10 @@ date: 2025-01-13 00:01:00 +0800
       <h3>Teaching</h3>
       <div class="muted">Tutorials, TA, student helper roles</div>
       <div class="scrollbox">
+          <div class="mini">
+          <div class="title">Tutor for ST2334: Probability and Statistics</div>
+          <div class="meta">Fall 2026</div>
+        </div>
         <div class="mini">
           <div class="title">Tutor for DSA3362: Predictive Data Analytics</div>
           <div class="meta">Spring 2026</div>
